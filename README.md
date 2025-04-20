@@ -1,11 +1,11 @@
  ### 🧑‍🤝‍🧑 Integrantes do grupo (em ordem alfabética)
 
-   | Nome completo            | RA        |
-   |--------------------------|-----------|
-   |                          |           |
-   |                          |           |
-   |                          |           |
-   |                          |           |
+   | Nome completo       | RA            |
+   |---------------------|---------------|
+   | Diogo Navarrete     | 2040482312041 |
+   | Emily Chagas        | 2040482322017 |
+   | Herbert Carvalho    | 2040482322000 |
+   | João Victor Pereira | 2040482312052 |
 
 ## ✅ Requisitos
 
