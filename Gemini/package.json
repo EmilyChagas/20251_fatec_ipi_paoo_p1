@@ -1,16 +1,16 @@
 {
-  "name": "coordenadas",
+  "name": "gemini",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "node --watch index.js"
+    "start": "node --watch index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/genai": "^0.9.0",
     "axios": "^1.8.4",
     "prompt-sync": "^4.2.0"
   }
