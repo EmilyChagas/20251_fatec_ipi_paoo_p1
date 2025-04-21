@@ -1,18 +1,18 @@
+import { apiKey, appid } from '../chaves.js';
+
 import axios from 'axios';
 import promptSync from 'prompt-sync';
 import { GoogleGenAI } from '@google/genai';
 
 //Variaveis do Gemini
-const apiKey = 'AIzaSyAzj70YEYdfX4kiUN4oO5DFPY-xcegn97Y'
 const ai = new GoogleGenAI({ apiKey})
 const formato =  'Por favor, devolva o resultado como um JSON válido'
 
 // Variaveis do OpenWeatherMap
 const prompt = promptSync();
 const baseURL = 'http://api.openweathermap.org/geo/1.0/direct'
-const appid = 'a484eaf895bc44a50d0b7b58ca6a4330'
- const q = prompt('Qual cidade você deseja ver as coordenadas: ');
- const url = `${baseURL}?q=${q}&appid=${appid}`;
+const q = prompt('Qual cidade você deseja ver as coordenadas: ');
+const url = `${baseURL}?q=${q}&appid=${appid}`;
  
 async function main() {
   let lat, long;
