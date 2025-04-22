@@ -1,8 +1,10 @@
-const axios = require('axios') 
-const prompt = require('prompt-sync')();
+import { appid } from '../chaves.js';
+import axios from 'axios';
+import promptSync from 'prompt-sync';
+
+const prompt = promptSync();
 
 const baseURL = 'http://api.openweathermap.org/geo/1.0/direct'
-const appid = 'a484eaf895bc44a50d0b7b58ca6a4330'
  const q = prompt('Qual cidade você deseja ver as coordenadas: ');
  const url = `${baseURL}?q=${q}&appid=${appid}`;
  
